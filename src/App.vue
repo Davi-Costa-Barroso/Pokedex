@@ -1,27 +1,9 @@
 <template>
-	<div id="pokedex">
-		<Pokedex />
-	</div>
+  <div class="p-14">
+    <router-link class="flex justify-center text-4xl text-red-600" to="/">Pokedex</router-link>
+  </div>
+  <router-view/>
 </template>
 
-<script>
-	import Pokedex from './components/Pokedex.vue';
-
-	export default {
-		name: 'App',
-		components: {
-			Pokedex,
-		},
-	};
-</script>
-
-<style lang="scss" scoped>
-	#pokedex {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: calc(100vh - 20px);
-		padding: 20px;
-	}
+<style>
 </style>
