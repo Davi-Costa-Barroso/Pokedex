@@ -1,5 +1,5 @@
 # Pokedex
-Pokedex created with vue
+Pokedex created with vue and tailwindcss
 #
 ### Imagens
 ![Print home](https://raw.githubusercontent.com/Davi-Costa-Barroso/vue-pokedex/main/src/assets/printHome.png)
